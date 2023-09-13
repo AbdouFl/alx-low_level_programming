@@ -1,30 +1,22 @@
-#include <stdio.h>
-#include "main.h"
-
-/*
- * Task 0. _putchar
- */
+ #include "main.h"
 
 /**
-  * main - Beginning/Starting point
-  *
-  * Objectif: Print _putchar, followed by a new line
-  *
-  * Return: Always 0 (True)
+  * main - function that print _putchar
+  *Return: returns 0;
   */
 
 int main(void)
 {
-	/* Get and display every character of the word */
-	char display[] = "_putchar";
-	int i;
 
-	/* Word character loop */
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(display[i]);
-	}
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
