@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * _isupper - check if INPUT ID DIGIT between 0 - 9
+ * _isdigit - check if INPUT ID DIGIT between 0 - 9
  *
  * @c: input
  *
  * Return: 1 if its uppercase, 0 if not
  */
-
 int _isdigit(int c)
 
 {
