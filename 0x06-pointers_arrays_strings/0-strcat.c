@@ -7,7 +7,7 @@
 /**
   * _strcat - Beginning point
   *
-  * @src: Original string pointer 
+  * @src: Original string pointer
   * @dest: Append string pointer
   *
   * Objectif: Concatenate two strings
