@@ -30,7 +30,7 @@ void print_number(int n)
 	/* Print all numbers */
 	if (number / 10 != 0)
 	{
-		print_number(number / 10);
+		print_number(n1 / 10);
 	}
-	_putchar((number % 10) + '0');
+	_putchar((n1 % 10) + '0');
 }
