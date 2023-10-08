@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
- * Task 0. la ti9a f 3ati9a 
+ * Task 0. Trust no one
  */
 
 /**
