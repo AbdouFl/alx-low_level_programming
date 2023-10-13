@@ -1,10 +1,14 @@
-#ifndef FUNCTION_POINTRES_H
-#define FUNCTION_POINTERES_H
+#ifndef FUNCTION_POINTERS_H
+#define FUNCTION_POINTERS_H
 
-#include <stdlib.h>
+/* Libreries */
+#include <stddef.h>
 
+/* Task 0 */
 void print_name(char *name, void (*f)(char *));
-void array_interator(int *array, size_t size, void (*action)(int));
+/* Task 1 */
+void array_iterator(int *array, size_t size, void (*action)(int));
+/* Task 3 */
 int int_index(int *array, int size, int (*cmp)(int));
 
-#endif
+#endif /* FUNCTION_POINTERS_H */
