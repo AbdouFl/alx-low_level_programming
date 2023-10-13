@@ -1,1 +1,1 @@
-this is our first group project about printf from ALX SE Proggram
+read my lines about function pointers tasks
